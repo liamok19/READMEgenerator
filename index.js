@@ -37,8 +37,18 @@ const questions = function () {
         },
         {
             type: 'input',
-            message: 'Who wants to contribute on this project? Write your name', 
-            name: 'contact',
+            message: 'Copy your github page below:', 
+            name: 'github_issue',
+        },
+        {
+            type: 'input',
+            message: 'For someone to contribute place in your github repo for them to clone', 
+            name: 'repo',
+        },
+        {
+            type: 'input',
+            message: 'Place in the npm install requirements for inquirer', 
+            name: 'inquirer',
         },
         {
             type: 'input',
@@ -55,7 +65,7 @@ const questions = function () {
 
 // TODO: Create a function to write README file
 
-const userResponse = ({name, licence, description,step1, step2, step3, step4, step5, usage,contact, test, questions}) => 
+const userResponse = ({name, licence, description,step1, step2, step3, step4, step5, usage, github_issue, repo, inquirer, test, questions}) => 
 `
 
 # ${name} 
@@ -87,7 +97,15 @@ ${description}
 
 ## Contribution
 ### Let's contribute. deets below yo!
-${contact}
+#### Guidelines 
+
+Please assign you github issue to the following link before running a Pull Request: 
+    ${github_issue}
+| Steps | Description | 
+| 1. | Git clone the following repo |
+    ${repo}
+| 2.| Once the repo is sucessful. In VS code install the following: | 
+    ${inquirer}    
 
 ## Test
 ${test}
