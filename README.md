@@ -1,11 +1,33 @@
-   # READMEgenerator
-        it's game time bitchs Liam 
-   # What is the app for? 
+# ${name}
 
-   # How to use the App?
+### License
 
-   # How to Install the App?
+## Table of Contents:
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute to this project](#contribution)
+- [Test](#test)
+- [Questions](#questions)
 
-   # How to Report issues?
+## Description 
+### What is the app for?
+    ${description}  
 
-   # Let's contribute. deets below yo!
+
+## Installation:
+    $(installation)
+
+## Usage:
+Please see the below reference of the product:
+    ${usage}
+
+## Contribution
+### Let's contribute. deets below yo!
+
+Let's stay in ${contact}
+
+## Test
+
+
+## Questions

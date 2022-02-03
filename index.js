@@ -8,19 +8,37 @@ const questions = function () {
     return inquirer.prompt ([
         {
             type: 'input',
+            message:'Give your Project a title name', 
+            name: 'name',
+        },
+        {
+            type: 'input',
+            message:'Write a brief description of the app', 
+            name: 'description',
+        },
+        {
+            type: 'input',
             message:'What is your name', 
             name: 'name',
         },
-        // 'Where are you based', 
-        // 'What"s your favourite color'    
+        {
+            type: 'input',
+            message:'What is your name', 
+            name: 'name',
+        },
+        {
+            type: 'input',
+            message:'What is your name', 
+            name: 'name',
+        },
     ]);
 };
 
 // TODO: Create a function to write README file
 
 const userResponse = ({name}) => 
-    `   # READMEgenerator
-        it's game time bitchs ${name}
+    `   # ${name}
+        it's game time bitches ${name}
     `
 
 // TODO: Create a function to initialize app
