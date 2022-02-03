@@ -1,9 +1,9 @@
 
 
-# Project title betch  
+# laiam  
 
 ### License
-    Britney  
+    akaak 
 
 ## Table of Contents:
 - [Description](#description)
@@ -15,22 +15,25 @@
 
 ## Description 
 ### What is the app for?
-Spears
+lalal
 
 ## Installation:
-Jane 
+1. undefined
+2. undefined
+3. undefined
+4. undefined
+5. akaka
 
 ## Usage:
-Please see the below reference of the product:
-work 
-
+<img src='assets/images/final_look.gif' alt="final-look">
+ 
 ## Contribution
 ### Let's contribute. deets below yo!
-mamamam 
+laal
 
 ## Test
-wooorooorrokkkk haoney 
+alalal
 
 ## Questions
-work bithch  
+alala 
 

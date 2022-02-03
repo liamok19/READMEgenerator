@@ -24,11 +24,15 @@ const questions = function () {
         {
             type: 'input',
             message:'Write a description on how to install this app', 
-            name: 'installation',
+            // name: 'step1',
+            // name: 'step2',
+            // name: 'step3',
+            // name: 'step4',
+            name: 'step5',
         },
         {
             type: 'input',
-            message:'Provide a directory to a asset reference of the app', 
+            message:'Provide the naming of the img or gif you want to reference from the following directory ./assets/images/', 
             name: 'usage',
         },
         {
@@ -51,7 +55,7 @@ const questions = function () {
 
 // TODO: Create a function to write README file
 
-const userResponse = ({name, licence, description,installation,usage,contact, test, questions}) => 
+const userResponse = ({name, licence, description,step1, step2, step3, step4, step5, usage,contact, test, questions}) => 
 `
 
 # ${name} 
@@ -72,11 +76,14 @@ const userResponse = ({name, licence, description,installation,usage,contact, te
 ${description}
 
 ## Installation:
-${installation}
+1. ${step1}
+2. ${step2}
+3. ${step3}
+4. ${step4}
+5. ${step5}
 
 ## Usage:
-Please see the below reference of the product:
-${usage}
+<img src='assets/images/${usage}' alt="final-look">
 
 ## Contribution
 ### Let's contribute. deets below yo!
