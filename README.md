@@ -1,9 +1,16 @@
 
 
 # laiam  
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
 ### License
-    akaak 
+    akaak
+![badmath](https://img.shields.io/apm/l/testing?style=for-the-badge) 
+
+
+
 
 ## Table of Contents:
 - [Description](#description)
