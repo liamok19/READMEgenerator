@@ -1,16 +1,9 @@
 
 
-# laiam  
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
+# Britney Jean Spears 
 
 ### License
-    akaak
-![badmath](https://img.shields.io/apm/l/testing?style=for-the-badge) 
-
-
-
+    ![badmath]()
 
 ## Table of Contents:
 - [Description](#description)
@@ -22,43 +15,33 @@
 
 ## Description 
 ### What is the app for?
-lalal
+Britney spears rulessssss
 
 ## Installation:
 1. undefined
 2. undefined
 3. undefined
 4. undefined
-5. akaka
+5. listen to toxic on repea
 
 ## Usage:
 <img src='assets/images/final_look.gif' alt="final-look">
- 
+
 ## Contribution
-### Let's contribute. deets below yo! :smile:
+### Let's contribute. deets below yo!
 #### Guidelines 
 
 Please assign you github issue to the following link before running a Pull Request: 
-    ${github_issue}
-- Discuss the issue if it already exists before running a PR request.
-- If what you want to contribute does not yet exists, open a new issue and get it assigned to yourself on GitHub.
-
-Please proceed only after you have been assigned to your Pull Request  
-
+    blah.com
 | Steps | Description | 
-| ------------- |:-------------:| 
 | 1. | Git clone the following repo |
-
-    ${repo}
-| | |    
-| ------------- |:-------------:|
-| 2. | Once the repo is sucessful. In VS code install the following | 
-
-    ${inquirer}    
+    com.blah
+| 2.| Once the repo is sucessful. In VS code install the following: | 
+    jaajajajajaj    
 
 ## Test
-alalal
+akkakakakak
 
 ## Questions
-alala 
+no 
 

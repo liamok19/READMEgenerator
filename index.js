@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+const badgeURL = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 
 const questions = function () {
@@ -12,9 +12,10 @@ const questions = function () {
             name: 'name',
         },
         {
-            type: 'input',
-            message:'What licence are you working with?', 
+            type: 'checkbox',
+            message: 'What licence are you working with?',
             name: 'licence',
+            choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None'],
         },
         {
             type: 'input',
@@ -71,7 +72,7 @@ const userResponse = ({name, licence, description,step1, step2, step3, step4, st
 # ${name} 
 
 ### License
-    ${licence} 
+    ![badmath](${licence})
 
 ## Table of Contents:
 - [Description](#description)
