@@ -1,47 +1,42 @@
 
+# ;s;s
+[![License: MIT](https://img.shields.io/apm/l/vim-mode?color=orange&style=for-the-badge.svg)](https://opensource.org/licenses/MIT)
 
-# Britney Jean Spears 
-
-### License
-    ![badmath]()
-
-## Table of Contents:
-- [Description](#description)
+## Table of contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribute to this project](#contribution)
-- [Test](#test)
-- [Questions](#questions)
+- [Credits](#credits)
+- [License](#license)
+- [Contribute](#Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-## Description 
-### What is the app for?
-Britney spears rulessssss
+## Description
+# What is the app for?
+;s;s
 
-## Installation:
-1. undefined
-2. undefined
-3. undefined
-4. undefined
-5. listen to toxic on repea
+## Installation Instructions
+| Steps | Instructions | 
+| ------------- |:-------------:| 
+| Step 1 | h |
+| Step 2 | h |
+| Step 3 | h |
+| Step 4 | h |
 
-## Usage:
-<img src='assets/images/final_look.gif' alt="final-look">
+## Final Look
+<img src='assets/images/final_look.gif' alt="final-look" >
 
-## Contribution
-### Let's contribute. deets below yo!
-#### Guidelines 
+## License
+This project is available under the MIT license. Visit [License: MIT](https://opensource.org/licenses/MIT) for full license text
 
-Please assign you github issue to the following link before running a Pull Request: 
-    blah.com
-| Steps | Description | 
-| 1. | Git clone the following repo |
-    com.blah
-| 2.| Once the repo is sucessful. In VS code install the following: | 
-    jaajajajajaj    
+## Contribute
+undefined
 
-## Test
-akkakakakak
+## Tests
+undefined
 
-## Questions
-no 
+### Questions
+s
 
+Git profile: https://github.com/hsh
+Email: undefined

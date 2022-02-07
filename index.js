@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const badgeURL = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown')
+// const renderLicenseBadge = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 
 const questions = function () {
@@ -12,10 +13,10 @@ const questions = function () {
             name: 'name',
         },
         {
-            type: 'checkbox',
+            type: 'list',
             message: 'What licence are you working with?',
-            name: 'licence',
-            choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None'],
+            name: 'license',
+            choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'Boost 1.0', 'Unlicense'],
         },
         {
             type: 'input',
@@ -24,12 +25,23 @@ const questions = function () {
         },
         {
             type: 'input',
-            message:'Write a description on how to install this app', 
-            // name: 'step1',
-            // name: 'step2',
-            // name: 'step3',
-            // name: 'step4',
-            name: 'step5',
+            message:'Write the first step on how to install this app', 
+            name: 'Step1',
+        },
+        {
+            type: 'input',
+            message:'Write the second step on how to install this app', 
+            name: 'Step2',
+        },
+        {
+            type: 'input',
+            message:'Write the third step on how to install this app', 
+            name: 'Step3',
+        },
+        {
+            type: 'input',
+            message:'Write the fourth step on how to install this app', 
+            name: 'Step4',
         },
         {
             type: 'input',
@@ -39,7 +51,7 @@ const questions = function () {
         {
             type: 'input',
             message: 'Copy your github page below:', 
-            name: 'github_issue',
+            name: 'github',
         },
         {
             type: 'input',
@@ -66,65 +78,67 @@ const questions = function () {
 
 // TODO: Create a function to write README file
 
-const userResponse = ({name, licence, description,step1, step2, step3, step4, step5, usage, github_issue, repo, inquirer, test, questions}) => 
-`
+// const userResponse = ({name, license, description,step1, step2, step3, step4, step5, usage, github_issue, repo, inquirer, test, questions}) => 
+// `
 
-# ${name} 
+// # ${name} 
 
-### License
-    ![badmath](${licence})
+// ### License
+//     ![badmath](${license})
 
-## Table of Contents:
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contribute to this project](#contribution)
-- [Test](#test)
-- [Questions](#questions)
+// ## Table of Contents:
+// - [Description](#description)
+// - [Installation](#installation)
+// - [Usage](#usage)
+// - [Contribute to this project](#contribution)
+// - [Test](#test)
+// - [Questions](#questions)
 
-## Description 
-### What is the app for?
-${description}
+// ## Description 
+// ### What is the app for?
+// ${description}
 
-## Installation:
-1. ${step1}
-2. ${step2}
-3. ${step3}
-4. ${step4}
-5. ${step5}
+// ## Installation:
+// 1. ${step1}
+// 2. ${step2}
+// 3. ${step3}
+// 4. ${step4}
+// 5. ${step5}
 
-## Usage:
-<img src='assets/images/${usage}' alt="final-look">
+// ## Usage:
+// <img src='assets/images/${usage}' alt="final-look">
 
-## Contribution
-### Let's contribute. deets below yo!
-#### Guidelines 
+// ## Contribution
+// ### Let's contribute. deets below yo!
+// #### Guidelines 
 
-Please assign you github issue to the following link before running a Pull Request: 
-    ${github_issue}
-| Steps | Description | 
-| 1. | Git clone the following repo |
-    ${repo}
-| 2.| Once the repo is sucessful. In VS code install the following: | 
-    ${inquirer}    
+// Please assign you github issue to the following link before running a Pull Request: 
+//     ${github_issue}
+// | Steps | Description | 
+// | 1. | Git clone the following repo |
+//     ${repo}
+// | 2.| Once the repo is sucessful. In VS code install the following: | 
+//     ${inquirer}    
 
-## Test
-${test}
+// ## Test
+// ${test}
 
-## Questions
-${questions} 
+// ## Questions
+// ${questions} 
 
-`
+// `
 
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
     .then((answerData) => {
-        console.log("What time is it. It's let's make a README time - yeehaw!");
-        fs.writeFileSync('README.md', userResponse (answerData));
+        generateMarkdown(answerData);
+
+        fs.writeFileSync('README.md', generateMarkdown(answerData));
     })
-    .catch((err) => console.log(err))
-}
+    .then(() => console.log("What time is it. It's let's make a README time - yeehaw!"))
+    .catch((err) => console.log(err));
+};
 
 // Function call to initialize app
 init();
