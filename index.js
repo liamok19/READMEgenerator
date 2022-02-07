@@ -5,6 +5,8 @@ const generateMarkdown = require('./utils/generateMarkdown')
 // const renderLicenseBadge = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 
+
+//prompting user with relevant questions. type field varies based on the question. 
 const questions = function () {
     return inquirer.prompt ([
         {
