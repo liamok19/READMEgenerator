@@ -1,46 +1,5 @@
 // // TODO: Create a function that returns a license badge based on which license is passed in
 // // If there is no license, return an empty string
-
-// //Other random badges 
-// // [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
-// // [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-// // [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
-// // const badgeURL = ('https://img.shields.io/apm/l/testing?style=for-the-badge');
-
-// function renderLicenseBadge(license) {
-//   switch (operation) {
-//     case 'MIT':
-//       return '[!license](https://img.shields.io/apm/l/testing?style=for-the-badge)';
-//     case 'Apache 2.0':
-//       return'[!Licens('https://img.shields.io/aur/license/apache_2.0?style=for-the-badge');
-//     break;
-//     case 'GPL 3.0':
-//       console.log('https://img.shields.io/eclipse-marketplace/l/gpl?style=for-the-badge');
-//     break;
-//     case 'None':
-//       console.log('No license for this project but ' + 'https://forthebadge.com/images/badges/made-with-crayons.svg');
-//     break;
-//   }
-
-
-// }
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-//   mitBadge
-
-// `;
-// }
-
 // module.exports = generateMarkdown;
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
