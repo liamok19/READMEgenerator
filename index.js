@@ -56,7 +56,12 @@ const questions = function () {
         {
             type: 'input',
             message: 'For someone to contribute place in your github repo for them to clone', 
-            name: 'repo',
+            name: 'contribute',
+        },
+        {
+            type: 'input',
+            message: 'Please leave your email here for further contact', 
+            name: 'email',
         },
         {
             type: 'input',
@@ -73,6 +78,7 @@ const questions = function () {
             message: 'Do you have any questions?', 
             name: 'questions',
         },
+
     ]);
 };
 

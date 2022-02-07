@@ -104,13 +104,14 @@ const licenseSection = renderLicenseSection(data.license)
 ${licenseBadge}
 
 ## Table of contents
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Contribute](#Contribute)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 # What is the app for?
@@ -119,10 +120,12 @@ ${data.description}
 ## Installation Instructions
 | Steps | Instructions | 
 | ------------- |:-------------:| 
+| Installation Requirements | ${data.inquirer} |
 | Step 1 | ${data.Step1} |
 | Step 2 | ${data.Step2} |
 | Step 3 | ${data.Step3} |
 | Step 4 | ${data.Step4} |
+
 
 ## Final Look
 <img src='assets/images/${data.usage}' alt="final-look" >
@@ -134,7 +137,7 @@ ${licenseSection}
 ${data.contribute}
 
 ## Tests
-${data.tests}
+${data.test}
 
 ### Questions
 ${data.questions}
