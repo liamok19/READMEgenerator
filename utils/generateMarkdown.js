@@ -107,7 +107,6 @@ ${licenseBadge}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [Contribute](#contribute)
 - [Tests](#tests)
@@ -117,7 +116,7 @@ ${licenseBadge}
 # What is the app for?
 ${data.description}
 
-## Installation Instructions
+## Installation 
 | Steps | Instructions | 
 | ------------- |:-------------:| 
 | Installation Requirements | ${data.inquirer} |
@@ -128,6 +127,7 @@ ${data.description}
 
 
 ## Final Look
+# Usage
 <img src='assets/images/${data.usage}' alt="final-look" >
 
 ## License
@@ -139,7 +139,7 @@ ${data.contribute}
 ## Tests
 ${data.test}
 
-### Questions
+## Questions
 ${data.questions}
 
 Git profile: https://github.com/${data.github}
